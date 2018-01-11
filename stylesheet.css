@@ -9,3 +9,26 @@
 h1 {
   color: coral;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#mainFrame {
+  width: 40vw;
+  height: 40vw;
+  background: pink;
+  overflow: hidden;
+  border: solid thick pink;
+}
+
+#image {
+  width: 290%;
+  height: auto;
+  position: relative;
+  right: 0%;
+  transition: right .5s;
+}
